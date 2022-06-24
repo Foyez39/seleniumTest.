@@ -5,12 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 public class LoginPage extends CommonAPI {
 
-    private final Logger LOG = LoggerFactory.getLogger(LoginPage.class);
+  
     @FindBy(css="input#email")
     private WebElement Email;
 
@@ -46,17 +45,17 @@ public class LoginPage extends CommonAPI {
 
     public void putEmail(String userEmail){
         type(Email,userEmail);
-        LOG.info("put email success");
+    
     }
 
     public void putPassword(String userPass){
         type(password,userPass);
-        LOG.info("put password success");
+       
     }
 
     public void hitSignIn(){
         click(submitSignIn);
-        LOG.info("Hit sign in success");
+      
     }
 
 
