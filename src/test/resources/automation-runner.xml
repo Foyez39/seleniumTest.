@@ -73,11 +73,11 @@
 <!--            <class name="Application.automation.ShareTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-<!--    <test name="printTest">-->
-<!--        <classes>-->
-<!--            <class name="Application.automation.PrintTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="printTest">
+        <classes>
+            <class name="Application.automation.PrintTest"></class>
+        </classes>
+    </test>
 <!--    <test name="informationTest">-->
 <!--        <classes>-->
 <!--            <class name="Application.automation.InformationTest"></class>-->
@@ -103,11 +103,11 @@
 <!--            <class name="Application.automation.SignOutTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-    <test name="checkOutTest">
-        <classes>
-            <class name="Application.automation.CheckOutTest"></class>
-        </classes>
-    </test>
+<!--    <test name="checkOutTest">-->
+<!--        <classes>-->
+<!--            <class name="Application.automation.CheckOutTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 
 
