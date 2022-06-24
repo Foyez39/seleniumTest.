@@ -9,8 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -33,7 +32,7 @@ import java.util.*;
 
 public class CommonAPI {
 
-    private final Logger LOG = LoggerFactory.getLogger(CommonAPI.class);
+
 
     Properties prop = Utility.loadProperties();
     String duration = prop.getProperty("implicit.wait", "10");
