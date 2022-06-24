@@ -5,11 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 public class AddressPage extends CommonAPI {
-    private final Logger LOG = LoggerFactory.getLogger(AddressPage.class);
+   
 
 @FindBy(css = "a[title='Addresses']")
 private WebElement address;
@@ -77,7 +76,7 @@ private WebElement requireFieldAssertion;
 
     public void clickOnMyAddresses(){
         click(address);
-        LOG.info("click on My address success");
+        
     }
 
     public String addressHeader(){
@@ -87,21 +86,21 @@ private WebElement requireFieldAssertion;
 
     public void clickOnUpdate(){
         click(update);
-        LOG.info("click on update success");
+       
     }
 
 
 
     public void clearCityField(){
         clear(city);
-        LOG.info("clearing city field success");
+      
     }
 
 
 
     public void enterCity(String text){
         type(city,text);
-        LOG.info("enter city success");
+       
     }
 
 
@@ -113,22 +112,22 @@ private WebElement requireFieldAssertion;
 
     public void clickOnAddNewAddress(){
         click(addNewAddress);
-        LOG.info("click on add new address success");
+      
     }
 
     public void enterNewAddress(String text){
         type(newAddress,text);
-        LOG.info("enter new address success");
+
     }
 
     public void enterNewCity(String text){
         type(newCity,text);
-        LOG.info("enter new city success");
+  
     }
 
     public void selectNewState(String option){
         selectFromDropdown(newState,option);
-        LOG.info("selecting new State success");
+      
     }
 
     public void enterNewPostcode(String text){
@@ -137,26 +136,26 @@ private WebElement requireFieldAssertion;
 
     public void enterNewMobilePhone(String text){
         type(newMobilePhone,text);
-        LOG.info("enter new mobile phone success");
+        
     }
 
 
 
     public void enterNewAlias(String text){
         type(newAlias,text);
-        LOG.info("enter new alias success");
+       
     }
 
 
     public void clickONNewAddressSubmit(){
         click(newAddressSubmit);
-        LOG.info("click on new address submit success");
+       
     }
 
 
     public void clickOnDeleteAddress(){
         click(deleteAddress);
-        LOG.info("click on delete address success");
+    
     }
 
 
