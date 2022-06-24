@@ -34,14 +34,14 @@ public class ConnectDB {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        LOG.info("Database is connected");
+       
         return connect;
     }
     public MongoDatabase connectToMongoDB() {
         String databaseName = prop.getProperty("mongodb.db.name");
         MongoClient mongoClient = new MongoClient();
         mongoDatabase = mongoClient.getDatabase(databaseName);
-        LOG.info("Database Connected");
+      
         return mongoDatabase;
     }
     public List<String> readMysqlDataBaseColumn(String tableName, String columnName){
