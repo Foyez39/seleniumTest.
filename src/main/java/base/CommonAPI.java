@@ -293,10 +293,10 @@ public class CommonAPI {
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "\\screenshots\\"+screenshotName+" "+df.format(date)+".jpeg"));
-            LOG.info("Screenshot captured");
+        
         } catch (Exception e) {
             String path = Utility.currentDir+ "/screenshots/"+screenshotName+" "+df.format(date)+".jpeg";
-            LOG.info("Exception while taking screenshot "+e.getMessage());
+           
         }
     }
 
