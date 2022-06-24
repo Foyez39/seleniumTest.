@@ -81,8 +81,8 @@
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.12.4</version>
-                    </plugin>
+                 </plugin>
             </plugins>
-        </build>
+   </build>
 
 </project>
