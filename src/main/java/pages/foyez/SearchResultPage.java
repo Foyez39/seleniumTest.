@@ -242,7 +242,7 @@ public class SearchResultPage extends CommonAPI {
 
     public void clickOnFloatingMenu(){
         click(floatingMenu);
-        LOG.info("click on floating menu success");
+      
     }
 
 }
