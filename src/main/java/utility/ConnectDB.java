@@ -2,8 +2,7 @@ package utility;
 
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -12,7 +11,7 @@ import java.util.Properties;
 
 public class ConnectDB {
 
-    private final Logger LOG = LoggerFactory.getLogger(ConnectDB.class);
+    
 
     Properties prop = Utility.loadProperties();
 
