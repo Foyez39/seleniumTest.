@@ -9,7 +9,7 @@ import utility.Utility;
 
 public class InformationTest extends CommonAPI {
 
-    @Test(enabled = false)
+    @Test
     public void shipmentsAndReturnPolicy(){
         InformationPage informationPage=new InformationPage(getDriver());
         ExcelReader excelReader=new ExcelReader(Utility.currentDir+"/data/Excel.xlsx");
@@ -20,7 +20,7 @@ public class InformationTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void legalNotice(){
         InformationPage informationPage=new InformationPage(getDriver());
         ExcelReader excelReader=new ExcelReader(Utility.currentDir+"/data/Excel.xlsx");
@@ -30,7 +30,7 @@ public class InformationTest extends CommonAPI {
         Assert.assertEquals(informationPage.legalHeader(),expected);
     }
 
-    @Test (enabled = false)
+    @Test
     public void termsCondition(){
         InformationPage informationPage=new InformationPage(getDriver());
         ExcelReader excelReader=new ExcelReader(Utility.currentDir+"/data/Excel.xlsx");
@@ -44,7 +44,7 @@ public class InformationTest extends CommonAPI {
 
 
 
-    @Test(enabled = false)
+    @Test
     public void companyDetails(){
         InformationPage informationPage=new InformationPage(getDriver());
         ExcelReader excelReader=new ExcelReader(Utility.currentDir+"/data/Excel.xlsx");
@@ -57,7 +57,7 @@ public class InformationTest extends CommonAPI {
     }
 
 
-    @Test(enabled = false)
+    @Test
     public void securePayment(){
         InformationPage informationPage=new InformationPage(getDriver());
         ExcelReader excelReader=new ExcelReader(Utility.currentDir+"/data/Excel.xlsx");

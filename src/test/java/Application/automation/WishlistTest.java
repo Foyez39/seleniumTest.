@@ -25,7 +25,7 @@ public class WishlistTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void viewingWishlist(){
         HomePage homePage= new HomePage(getDriver());
         LoginPage loginPage= new LoginPage(getDriver());

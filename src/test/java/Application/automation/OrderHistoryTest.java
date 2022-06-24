@@ -31,7 +31,7 @@ public void OrderCheckTest(){
 
 }
 
-@Test(enabled = false)
+@Test
     public void orderDetailsTest(){
 
     HomePage homePage= new HomePage(getDriver());
@@ -52,7 +52,7 @@ public void OrderCheckTest(){
 
 }
 
-@Test(enabled = false)
+@Test
     public void backToUserAccount(){
     HomePage homePage= new HomePage(getDriver());
     LoginPage loginPage= new LoginPage(getDriver());
@@ -69,7 +69,7 @@ public void OrderCheckTest(){
     orderHistoryPage.clickOnBackToAccount();
 }
 
-@Test(enabled = false)
+@Test
     public void backToHomeTest(){
     HomePage homePage= new HomePage(getDriver());
     LoginPage loginPage= new LoginPage(getDriver());

@@ -12,7 +12,7 @@ import utility.Utility;
 public class AddressTest extends CommonAPI {
 
 
-    @Test(enabled = false)
+    @Test
     public void address(){
         HomePage homePage= new HomePage(getDriver());
         LoginPage loginPage= new LoginPage(getDriver());
@@ -38,7 +38,7 @@ public class AddressTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void updateAddress(){
 
         HomePage homePage= new HomePage(getDriver());
@@ -103,7 +103,7 @@ public class AddressTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void deleteAddress(){
 
         HomePage homePage= new HomePage(getDriver());

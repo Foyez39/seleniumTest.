@@ -1,6 +1,7 @@
 package Application.automation;
 
 import base.CommonAPI;
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.foyez.*;
@@ -9,7 +10,7 @@ import utility.Utility;
 
 public class CheckOutTest extends CommonAPI {
 
-    @Test(enabled = false)
+    @Test
         public void checkOut(){
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
         HomePage homePage= new HomePage(getDriver());
@@ -52,7 +53,7 @@ public class CheckOutTest extends CommonAPI {
     }
 
 
-    @Test(enabled = false)
+    @Test
     public void checkoutWithDeliveryAddressChange(){
 
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
@@ -82,6 +83,8 @@ public class CheckOutTest extends CommonAPI {
         addToCartPage.clickOnContinueShopping();
         checkOutPage.hoverOverShoppingCart(getDriver());
         checkOutPage.clickOnCheckOutFromShoppingCart();
+        JavascriptExecutor js= (JavascriptExecutor) getDriver();
+        js.executeScript("window.scrollBy(0,5000);");
         checkOutPage.clickOnCheckOutProceed();
         String deliveryAddress= excelReader.getDataFromCell("Sheet1",3,8);
         checkOutPage.selectDeliveryAddress(deliveryAddress);
@@ -101,7 +104,7 @@ public class CheckOutTest extends CommonAPI {
     }
 
 
-    @Test(enabled = false)
+    @Test
     public void checkoutWithDifferentDeliveryAndBillingAddress(){
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
         HomePage homePage= new HomePage(getDriver());
@@ -150,7 +153,7 @@ public class CheckOutTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void checkoutByNonAccountHolder(){
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
         AddToCartPage addToCartPage=new AddToCartPage(getDriver());

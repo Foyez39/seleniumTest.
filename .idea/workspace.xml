@@ -5,7 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5a2b641-8b81-47cb-aae7-889d2bbe2638" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/Excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/AddToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/AddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/AddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/CheckOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/CheckOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/FilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/FooterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/FooterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/InformationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/InformationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/OrderHistoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/OrderHistoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/RemoveItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/RemoveItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/SearchBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/SearchBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/SignOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/SignOutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Application/automation/WishlistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Application/automation/WishlistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/automation-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/automation-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Faizan/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/dell_Pages/ContactUsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/dell_Pages/Footer_CopyrightPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/dell_Pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/dell_Pages/HomePageFooter_EmailSignUpPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/methi/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/saloua/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utility/ConnectDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utility/ConnectDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utility/ExcelReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utility/ExcelReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utility/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utility/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/SmartBear/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/Telerik/TC01TelerikLoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/AddToCartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/AddToCartTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/AddressTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/AddressTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/CheckOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/CheckOutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/FilterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/FilterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/FooterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/FooterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/InformationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/InformationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/OrderHistoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/OrderHistoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/QuantityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/QuantityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/RemoveItemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/RemoveItemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/SearchBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/SearchBoxTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/SignOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/SignOutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/automation/WishlistTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Application/automation/WishlistTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/dell/SignInTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Application/saloua/LogInTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/automation-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automation-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dell-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dell-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,22 +71,33 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2AwNvlUPb9nFe2guoek7IsVvEAI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/flyer/PNT/TeamPython_Hybrid_BACKUP&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.345977&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/flyer/IdeaProjects/TeamPython_HybridFrameWork",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.345977",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\flyer\PNT\TeamPython_Hybrid_BACKUP\data" />

@@ -30,7 +30,7 @@ public class LoginTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void SignInWithInvalidCred(){
         HomePage homePage= new HomePage(getDriver());
         LoginPage loginPage= new LoginPage(getDriver());
@@ -46,7 +46,7 @@ public class LoginTest extends CommonAPI {
 
 
     }
-    @Test(enabled = false)
+    @Test
     public void SignInWithInvalidIdAndValidPass(){
         HomePage homePage= new HomePage(getDriver());
         LoginPage loginPage= new LoginPage(getDriver());
@@ -63,7 +63,7 @@ public class LoginTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void SignInWithValidIdAndInvalidPass(){
         HomePage homePage= new HomePage(getDriver());
         LoginPage loginPage= new LoginPage(getDriver());
@@ -77,6 +77,16 @@ public class LoginTest extends CommonAPI {
         String expectedMessage= excelReader.getDataFromCell("Sheet1",11,0);
         Assert.assertEquals(loginPage.alreadyRegisteredHeader(),expectedMessage);
 
+    }
+    @Test
+    public void signInWithNOCred(){
+        HomePage homePage= new HomePage(getDriver());
+        LoginPage loginPage= new LoginPage(getDriver());
+        ExcelReader excelReader=new ExcelReader(Utility.currentDir+"/data/Excel.xlsx");
+        homePage.clickOnSignIn();
+        loginPage.hitSignIn();
+        String expectedMessage= excelReader.getDataFromCell("Sheet1",9,0);
+        Assert.assertEquals(loginPage.warningHeader(),expectedMessage);
     }
 
 

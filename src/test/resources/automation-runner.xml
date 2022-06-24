@@ -18,11 +18,11 @@
 <!--                <class name="Application.automation.AddToCartTest"></class>-->
 <!--            </classes>-->
 <!--        </test>-->
-        <test name="ColorChangeTest">
-            <classes>
-                <class name="Application.automation.ColorTest"></class>
-            </classes>
-        </test>
+<!--        <test name="ColorChangeTest">-->
+<!--            <classes>-->
+<!--                <class name="Application.automation.ColorTest"></class>-->
+<!--            </classes>-->
+<!--        </test>-->
 <!--        <test name="DropdownTest">-->
 <!--            <classes>-->
 <!--                <class name="Application.automation.DropdownSizeTest"></class>-->
@@ -103,11 +103,11 @@
 <!--            <class name="Application.automation.SignOutTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-<!--    <test name="checkOutTest">-->
-<!--        <classes>-->
-<!--            <class name="Application.automation.CheckOutTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="checkOutTest">
+        <classes>
+            <class name="Application.automation.CheckOutTest"></class>
+        </classes>
+    </test>
 
 
 

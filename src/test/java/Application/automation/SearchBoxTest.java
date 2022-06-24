@@ -13,7 +13,7 @@ import java.util.List;
 
 public class SearchBoxTest extends CommonAPI {
 
-    @Test(enabled = false)
+    @Test
     public void search(){
         HomePage homePage= new HomePage(getDriver());
         LoginPage loginPage= new LoginPage(getDriver());
@@ -34,7 +34,7 @@ public class SearchBoxTest extends CommonAPI {
 
 
     }
-    @Test(enabled = false)
+    @Test
     public void searchWithKeyBoardBtn(){
         HomePage homePage= new HomePage(getDriver());
         LoginPage loginPage= new LoginPage(getDriver());
@@ -53,7 +53,7 @@ public class SearchBoxTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void searchWithoutSearchKeyword(){
         HomePage homePage= new HomePage(getDriver());
         LoginPage loginPage= new LoginPage(getDriver());
@@ -71,7 +71,7 @@ public class SearchBoxTest extends CommonAPI {
 
 
     }
-    @Test(enabled = false)
+    @Test
     public void searchByNonAcHolder(){
         HomePage homePage= new HomePage(getDriver());
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
@@ -84,7 +84,7 @@ public class SearchBoxTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void searchWithKeyBoardBtnByNonAcHOlder(){
         HomePage homePage= new HomePage(getDriver());
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
@@ -96,7 +96,7 @@ public class SearchBoxTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void searchWithoutSearchKeywordByNonAcHolder(){
         HomePage homePage= new HomePage(getDriver());
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());

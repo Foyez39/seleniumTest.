@@ -9,7 +9,7 @@ import utility.Utility;
 
 public class RemoveItemTest extends CommonAPI {
 
-    @Test(enabled = false)
+    @Test
     public void removeItem(){
 
         HomePage homePage= new HomePage(getDriver());

@@ -12,7 +12,7 @@ import utility.Utility;
 
 public class SignOutTest extends CommonAPI {
 
-    @Test(enabled = false)
+    @Test
     public void signOut(){
         SignOutPage signOutPage=new SignOutPage(getDriver());
         HomePage homePage= new HomePage(getDriver());

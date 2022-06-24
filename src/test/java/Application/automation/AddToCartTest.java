@@ -11,7 +11,7 @@ import pages.foyez.SearchResultPage;
 public class AddToCartTest extends CommonAPI {
 
 
-    @Test(enabled = false)
+    @Test
     public void AddToCartFromHomePage(){
 
         HomePage homePage= new HomePage(getDriver());
@@ -22,7 +22,7 @@ public class AddToCartTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void AddToCartAfterViewingItem(){
         HomePage homePage= new HomePage(getDriver());
         AddToCartPage addToCartPage=new AddToCartPage(getDriver());
@@ -33,7 +33,7 @@ public class AddToCartTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void continueShopping(){
         HomePage homePage= new HomePage(getDriver());
         AddToCartPage addToCartPage=new AddToCartPage(getDriver());
@@ -44,7 +44,7 @@ public class AddToCartTest extends CommonAPI {
         addToCartPage.clickOnContinueShopping();
 
     }
-    @Test(enabled = false)
+    @Test
     public void viewCart(){
         HomePage homePage= new HomePage(getDriver());
         AddToCartPage addToCartPage=new AddToCartPage(getDriver());
@@ -56,7 +56,7 @@ public class AddToCartTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void addToCartAfterFiltering(){
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
         AddToCartPage addToCartPage=new AddToCartPage(getDriver());

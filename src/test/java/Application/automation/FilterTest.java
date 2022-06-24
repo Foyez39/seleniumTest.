@@ -9,7 +9,7 @@ import pages.foyez.SearchResultPage;
 public class FilterTest extends CommonAPI {
 
 
-    @Test(enabled = false)
+    @Test
     public void checkboxForSize(){
 
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
@@ -20,7 +20,7 @@ public class FilterTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void checkboxForComposition(){
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
         FilterPage filterPage=new FilterPage(getDriver());
@@ -30,7 +30,7 @@ public class FilterTest extends CommonAPI {
         Assert.assertTrue(checkBoxIsChecked(filterPage.polyesterComposition));
     }
 
-    @Test(enabled = false)
+    @Test
     public void checkboxForStyle(){
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
         FilterPage filterPage=new FilterPage(getDriver());
@@ -39,7 +39,7 @@ public class FilterTest extends CommonAPI {
         Assert.assertTrue(checkBoxIsChecked(filterPage.casualCheckbox));
     }
 
-    @Test(enabled = false)
+    @Test
     public void checkboxForProperties(){
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
         FilterPage filterPage=new FilterPage(getDriver());
@@ -48,7 +48,7 @@ public class FilterTest extends CommonAPI {
         Assert.assertTrue(checkBoxIsChecked(filterPage.shortSleeveCheckbox));
     }
 
-    @Test(enabled = false)
+    @Test
     public void checkboxForManufacturer(){
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
         FilterPage filterPage=new FilterPage(getDriver());
@@ -58,7 +58,7 @@ public class FilterTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void checkboxForCondition(){
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
         FilterPage filterPage=new FilterPage(getDriver());
@@ -67,7 +67,7 @@ public class FilterTest extends CommonAPI {
         Assert.assertTrue(checkBoxIsChecked(filterPage.conditionCheckbox));
     }
 
-    @Test(enabled = false)
+    @Test
     public void checkboxForAvailability(){
         SearchResultPage searchResultPage= new SearchResultPage(getDriver());
         FilterPage filterPage=new FilterPage(getDriver());

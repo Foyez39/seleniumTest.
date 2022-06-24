@@ -9,7 +9,7 @@ import utility.ExcelReader;
 import utility.Utility;
 
 public class FooterTest extends CommonAPI {
-    @Test(enabled = false)
+    @Test
     public void womenFooter(){
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
         footerOptionsPage.clickOnFooterWomen();
@@ -20,7 +20,7 @@ public class FooterTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void specialFooter(){
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
         footerOptionsPage.clickOnSpecial();
@@ -29,7 +29,7 @@ public class FooterTest extends CommonAPI {
         Assert.assertEquals(getPageUrl(),expected);
 
     }
-    @Test(enabled = false)
+    @Test
     public void newProductFooter(){
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
         footerOptionsPage.clickOnNewProducts();
@@ -38,7 +38,7 @@ public class FooterTest extends CommonAPI {
         Assert.assertEquals(getPageUrl(),expected);
     }
 
-    @Test(enabled = false)
+    @Test
     public void bestSellerFooter(){
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
         footerOptionsPage.clickOnBestSeller();
@@ -47,7 +47,7 @@ public class FooterTest extends CommonAPI {
         Assert.assertEquals(getPageUrl(),expected);
     }
 
-    @Test(enabled = false)
+    @Test
     public void contactUsFooter(){
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
         ContactPage contactPage=new ContactPage(getDriver());
@@ -68,7 +68,7 @@ public class FooterTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void termsConditionFooter(){
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
         footerOptionsPage.clickOnTermsCondition();
@@ -77,7 +77,7 @@ public class FooterTest extends CommonAPI {
         Assert.assertEquals(getPageUrl(),expected);
     }
 
-    @Test(enabled = false)
+    @Test
     public void aboutUsFooter(){
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
         footerOptionsPage.clickOnAboutUs();
@@ -86,7 +86,7 @@ public class FooterTest extends CommonAPI {
         Assert.assertEquals(getPageUrl(),expected);
     }
 
-    @Test(enabled = false)
+    @Test
     public void siteMapFooter(){
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
         footerOptionsPage.clickOnSitemap();
@@ -95,7 +95,7 @@ public class FooterTest extends CommonAPI {
         Assert.assertEquals(getPageUrl(),expected);
     }
 
-    @Test(enabled = false)
+    @Test
     public void orderFooter(){
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
         HomePage homePage= new HomePage(getDriver());
@@ -111,7 +111,7 @@ public class FooterTest extends CommonAPI {
         String expected= excelReader.getDataFromCell("Sheet1",13,6);
         Assert.assertEquals(getPageUrl(),expected);
     }
-   @Test(enabled = false)
+   @Test
     public void ScrollDownAndUpdateAddressFromFooter(){
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
        HomePage homePage= new HomePage(getDriver());
@@ -140,7 +140,7 @@ public class FooterTest extends CommonAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void ScrollDownAndAddNewAddressFromFooter(){
 
         FooterOptionsPage footerOptionsPage=new FooterOptionsPage(getDriver());
